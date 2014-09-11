@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: smaller;
+    padding: 50px;
+    color: #555;
+	text-align: center;
+}
+
+h1 {
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 1.4em;
+    color: #be7429;
+    font-weight: normal;
+    width: 450px;
+}
+
+table {
+    width: 580px;
+    padding: 10px;
+    background-color: #FF8F45;
+ 	margin-left:auto; 
+    margin-right:auto;
+}
+
+
+
+th {
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 10px;
+}
+
+a:link {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: none;
+}
+
+a:link:hover {
+   color: #be7429;
+   font-weight: normal;
+   text-decoration: underline;
+}
+
+
+
+
+/* START NAV MENU */
+nav {
+  background-color:#FF8F45;
+  height:20px;
+  width: relative;
+  text-align: center;
+  color:#FFFFFF
+}
+ 
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 12px;
+  margin: 0;
+  padding: 4;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: center;
+ 
+}
+ 
+ 
+nav ul li a:hover { 
+  background: #FF8F33; 
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:20px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+
+ 
+/* END NAV MENU */
+
+
+
